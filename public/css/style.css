@@ -11966,77 +11966,37 @@ textarea.form-control-lg {
   }
 }
 .bg-container {
-  height: 1220px;
-  background-image: url("../../../../public/img/banner.jpg");
+  background-image: url("../../../public/img/hero-bg.jpg");
   background-size: cover;
+  height: 1220px;
   background-position: top;
 }
 .bg-container .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 50px;
-  background-color: transparent;
+  background-color: white;
   align-content: flex-start;
 }
 .bg-container .logo {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
 }
-.bg-container .logo .by-templated {
-  font-weight: normal;
-  font-size: 18px;
-  opacity: 0.7;
+.bg-container .logo .point {
+  font-weight: bold;
+  color: rgb(26, 114, 234);
 }
 .bg-container .nav-links a {
-  color: white;
+  color: black;
   text-decoration: none;
-  margin-left: 30px;
-  font-size: 18px;
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: normal;
   letter-spacing: 1px;
   transition: color 0.3s;
-  margin: 3rem;
 }
 .bg-container .nav-links a:hover {
-  color: #f39c12;
-}
-.bg-container .nav-links a .space {
-  display: flex;
-}
-.bg-container .hero-section {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 450px;
-}
-.bg-container .title {
-  font-size: 3rem;
+  color: blue;
   font-weight: bold;
-  margin-bottom: 10px;
-  color: whitesmoke;
-}
-.bg-container .subtitle {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  color: whitesmoke;
-}
-.bg-container .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 1170px;
-  max-width: 200px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: red;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-.bg-container .button:hover {
-  background-color: #cc0040;
 }/*# sourceMappingURL=style.css.map */
