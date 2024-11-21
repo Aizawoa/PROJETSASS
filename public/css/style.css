@@ -11965,78 +11965,51 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.bg-container {
-  height: 1220px;
-  background-image: url("../../../../public/img/banner.jpg");
-  background-size: cover;
-  background-position: top;
-}
-.bg-container .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  background-color: transparent;
-  align-content: flex-start;
-}
-.bg-container .logo {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-}
-.bg-container .logo .by-templated {
-  font-weight: normal;
-  font-size: 18px;
-  opacity: 0.7;
-}
-.bg-container .nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 30px;
-  font-size: 18px;
-  letter-spacing: 1px;
-  transition: color 0.3s;
-  margin: 3rem;
-}
-.bg-container .nav-links a:hover {
-  color: #f39c12;
-}
-.bg-container .nav-links a .space {
-  display: flex;
-}
-.bg-container .hero-section {
-  text-align: center;
+.featured {
+  width: 100%;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  margin-top: 450px;
-}
-.bg-container .title {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: whitesmoke;
-}
-.bg-container .subtitle {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  color: whitesmoke;
-}
-.bg-container .button {
-  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  margin-left: 1170px;
-  max-width: 200px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: red;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  text-align: center;
 }
-.bg-container .button:hover {
-  background-color: #cc0040;
+
+.boite {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+}
+
+.para {
+  color: #72a9f2;
+  background-color: #e7f1fd;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 20%;
+}
+
+span {
+  color: #106eea;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  filter: invert(30%) sepia(100%) saturate(1500%) hue-rotate(200deg) brightness(100%);
+  color: #2379ec;
+}
+
+.carte {
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+.carte p {
+  width: 270px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
