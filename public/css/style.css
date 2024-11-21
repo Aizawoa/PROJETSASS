@@ -12039,4 +12039,13 @@ textarea.form-control-lg {
 }
 .bg-container .button:hover {
   background-color: blue;
+}
+
+img {
+  filter: brightness(50%);
+}
+
+h5, .h5 {
+  color: rgb(34, 111, 255);
+  font-size: 50px;
 }/*# sourceMappingURL=style.css.map */
