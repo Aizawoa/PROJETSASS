@@ -12240,4 +12240,128 @@ h5, .h5 {
 .section-card {
   display: flex;
   gap: 5%;
+}
+
+.section5 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section5 .services3 {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para7 {
+  color: #106eea;
+  background-color: #e7f1fd;
+  width: 100px;
+  margin-left: 1%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.para8 {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.contact-container {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-card1 {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 800px;
+  transition: box-shadow 0.3s ease;
+}
+.contact-card1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-card1 img {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 80px;
+}
+.contact-card1 h3, .contact-card1 .h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.contact-card1 p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-card2 {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  transition: box-shadow 0.3s ease;
+}
+.contact-card2:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-card2 img {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 80px;
+}
+.contact-card2 h3, .contact-card2 .h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.contact-card2 p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-card3 {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  transition: box-shadow 0.3s ease;
+}
+.contact-card3:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-card3 img {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 90px;
+}
+.contact-card3 h3, .contact-card3 .h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.contact-card3 p {
+  font-size: 14px;
+  color: #555;
 }/*# sourceMappingURL=style.css.map */
