@@ -12364,4 +12364,52 @@ h5, .h5 {
 .contact-card3 p {
   font-size: 14px;
   color: #555;
+}
+
+.contact-form {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba 0, 0, 0, 0.1;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.contact-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.section6 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-right: 390px;
+}
+.section6 .form {
+  width: 600px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
 }/*# sourceMappingURL=style.css.map */
