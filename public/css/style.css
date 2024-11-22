@@ -11971,6 +11971,9 @@ textarea.form-control-lg {
   height: 1000px;
   background-position: top;
 }
+.bg-container .molen {
+  color: black;
+}
 .bg-container .navbar {
   display: flex;
   justify-content: space-around;
@@ -12412,4 +12415,25 @@ h5, .h5 {
   padding: 20px;
   text-align: center;
   transition: box-shadow 0.3s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(241, 246, 254);
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #555;
+}
+.footer span {
+  color: black;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.footer a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
